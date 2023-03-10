@@ -1,0 +1,202 @@
+    /* {
+        width: 100%;
+        height: auto;
+        display: flex;
+    }*/
+    .home{
+        text-align: center;
+        background-color: paleturquoise;
+        display:  block;
+        width: 100%;
+        height:600px;
+        padding-top: 400px;
+        position: sticky;
+    }
+    h1, h2, h3{
+        text-align: center;
+        font-size: 40px;
+    }
+    .navbar{
+        display: flex;
+        width: 55%;
+        height: 100px;
+        margin: 0 auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: column;
+        align-content: space-between;
+        align-items: center;
+    }
+     header{
+        display: flex;
+        background: rgba(0,0,0,0,7);
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+    }
+    .box{
+        background-color: rgb(220, 188, 244);
+        width: 50%;
+        border-radius: 30px;
+        height: 200px;
+        font-size: 20px;
+        border: 40px;
+        border-color: black;
+        margin: 0px auto;
+    }
+     hr {
+        color: black;
+        width: 40%;
+    }
+    input{
+        background-color: rgb(173, 224, 238);
+    }
+    footer{
+        width: 98.5%;
+        height: 150px;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        display: flex;
+        justify-content: space-between;
+        text-align: end;
+        padding: 10px;
+    }
+    .logo{
+        width: 60px;
+        height: 60px;
+        padding: 20px;
+    }
+    .redes{
+        width: 50px;
+        height: 50px;
+    }
+    .social{
+		width:190px;
+        padding: 10px;
+	}
+    a{
+        text-align: end;
+        padding: 10px;
+    }
+    p{
+        padding: 0px 0px 0px 20px;
+    }
+    nav > ul {
+        width: 35vw;
+        display: flex;
+        justify-content: space-around;
+        font-size: 20px;
+    }
+    li{
+        list-style: none;
+    }
+    .barra{
+        display: flex;
+        width: 96%;
+        height: 50px;
+        top: 0px;
+        padding: 0px 20px;
+        min-height: 75px;
+        position: fixed;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #eee;
+    }        
+
+    .comunidad{
+        display: flex;
+        width: 99%;
+        height: 400px;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .adul{
+        width: 380px;
+        height: 200px;
+        padding-right: 20px;
+    }
+    .imagen{
+        width: 390px;
+        height: auto;
+        border: 10px;
+        border-color: black;
+    }
+    .button-menu{
+        z-index: 200;
+        width: 40px;
+        height: 40px;
+        border: none;
+        display: flex;
+        background: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    .button-menu span{
+          width: 37px;
+        height: 4px;
+        margin-bottom: 5px;
+        position: relative;
+        background: #444444;
+        border-radius: 3px;
+        transform-origin: 4px 0px;
+        transition: all .2s linear;
+    }
+    .button-menu.close span {
+        opacity: 1;
+        transform: rotate(45deg) translate(0px, 0px);
+        background: #ffffff;
+    }
+    .button-menu.close span:nth-child(2){
+        transform: rotate(-45deg) translate(-8px, 5px);
+    }
+    .button-menu.close span:nth-child(3){
+        display: none;
+    }
+    .nu{
+        margin-top: 2rem;
+        color: #444444;
+        text-decoration: none;
+        font-weight: bold;
+        position: relative;
+    }
+    .nu::after {
+        position: absolute;
+        content: "";
+        background-color: black;
+        bottom: -5px;
+        left: 0;
+        width: 0%;
+        height: 3px;
+        transition: 0.3s ease all;
+    }
+    .nu:hover::after {
+        width: 100%;
+    }
+    .asilo{
+        width: 40%;
+        height: auto;
+        padding-left: 30%;
+    }
+    .cuerpo{
+        width: 99%;
+        display: flex;
+        background-color: white;
+        text-align: center;
+    }
+    caption{
+      text-align: center;
+      position: top;
+    }
+    #img-div{
+        align-items: center;
+    }
+    .table-responsive{
+      padding-left: 20px;
+    }
+    table{
+      margin: 0 auto;
+      border: 1;
+    }
